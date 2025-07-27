@@ -9,29 +9,34 @@
     <title>World Clock</title>
 </head>
 <body>
- <div class="container">
-    <h1>World Clocks</h1>
-    <select name="" id="">
-        <option value="">Select a city...</option>
-        <option value="" class="value">London</option>
-        <option value="" class="value">New York</option>
-        <option value="" class="value">Auckland</option>
-    </select>
-    <div class="city" id="los-angeles">
-             <div>
-                <h2>Los Angeles 🇺🇸</h2>
-                <div class="date">August 15th 2022</div>
-            </div>
-            <div class="time">1:48 <small>AM</small></div>
-        </div>
-        <div class="city" id="paris">
+    <div class="container">
+        <h1>World Clock</h1>
+  
+        <select id="city">
+          <option value="">Select a city..</option>
+          <option value="current">My current location</option>
+          <option value="Europe/London">London</option>
+          <option value="America/New_York">New York</option>
+          <option value="Pacific/Auckland">Auckland</option>
+        </select>
+  
+        <div id="cities">
+          <div class="city" id="los-angeles">
             <div>
-               <h2>Paris 🇫🇷</h2>
-               <div class="date">August 15th 2022</div>
-           </div>
-           <div class="time">1:48 <small>AM</small></div>
-       </div>
-</div>
+              <h2>Los Angeles</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"></div>
+          </div>
+          <div class="city" id="paris">
+            <div>
+              <h2>Paris</h2>
+              <div class="date"></div>
+            </div>
+            <div class="time"></div>
+          </div>
+        </div>
+      </div>
  <footer>This project was coded by <stron>Halley Nani</strong>, and is 
     <a href="https://github.com/halleynani/world-clock" target="_blank"> on GitHub.</a>
     </footer>
