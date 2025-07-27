@@ -4,3 +4,11 @@ let losAngelesDateElement = losAngelesElement.querySelector(".date");
 let losAngelesTimeElement = losAngelesElement.querySelector(".time");
 losAngelesDateElement.innerHTML = moment().format("MMMM Do YYYY");
 losAngelesTimeElement.innerHTML = "1:48:15<small>AM</small>";
+
+
+//Paris
+let parisElement = document.querySelector("#paris");
+let parisDateElement = parisElement.querySelector(".date");
+let parisTimeElement = parisElement.querySelector(".time");
+parisDateElement.innerHTML = moment().format("MMMM Do YYYY");
+parisTimeElement.innerHTML = "1:48:15<small>AM</small>";
